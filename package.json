@@ -1,0 +1,29 @@
+{
+  "name": "react-skeleton",
+  "version": "1.0.0",
+  "description": "my first React program",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hea001/react-skeleton.git"
+  },
+  "keywords": [
+    "react-skeleton"
+  ],
+  "author": "Ann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hea001/react-skeleton/issues"
+  },
+  "homepage": "https://github.com/hea001/react-skeleton#readme",
+  "dependencies": {
+    "babelify": "^7.3.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "watchify": "^3.8.0"
+  }
+}
